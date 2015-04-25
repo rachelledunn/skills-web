@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+	  <title>{% block title %}APPLICATION{% endblock %}</title>
+	  <link rel="stylesheet" href="static/styles.css">
+	</head>
+	<body>
+		<div class="row">
+			{% block body %}
+				<div class="jumbotron">
+					<h1>Welcome, applicant!</h1>
+					<h3><a href="/application-form">Click to start your application &rarr;</a></h3>
+				</div>
+			{% endblock %}
+		</div>
+	</body>
+</html>

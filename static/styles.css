@@ -1,0 +1,62 @@
+html {
+	font-family: Open Sans, sans-serif;
+}
+
+body {
+	background: url('melons.jpg') repeat-y center top / 200% auto transparent;
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 2em;
+	padding: 0 20px;
+}
+
+h1 {
+	line-height: 1em;
+}
+
+.row {
+	margin: 40px auto;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 3em;
+	text-shadow: 0 3px 10px #333;
+	text-transform: uppercase;
+}
+
+form {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	box-shadow: 0 0 20px #666666;
+}
+
+form label {
+	display: block;
+	margin: 20px auto;
+}
+
+form input {
+	background-color: #FFEC5C;
+	padding: 5px;
+	min-width: 200px;
+	max-width: 100%;
+	border: 3px solid white;
+	border-radius: 3px;
+}
+
+form input:hover {
+	background-color: #C5D13B;
+}
+
+input#lastname {
+	font-weight: bold;
+}
+
+input#submit {
+	cursor: pointer;
+}

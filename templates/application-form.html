@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+{% block title %}The Application{% endblock %}
+
+{% block body %}
+	<h1>Apply, apply, apply!</h1>
+	<p>Fill out our form to apply for one of our super jobs!</p>
+    <form action="/application" method="POST">
+    	<label>First Name: 
+    		<input type="text" name="firstname">
+    	</label>
+    	<label>Last Name: 
+    		<input type="text" name="lastname" id="lastname">
+    	</label>
+        <label>Salary Requirement: 
+            <input type="text" name="salary">
+        </label>
+    	<label>Which position are you applying for?
+    		<select name="position">
+				<option name="Software Engineer">Software Engineer</option>
+				<option name="QA Engineer">QA Engineer</option>
+				<option name="Product Manager">Product Manager</option>
+		    </select>
+		</label>
+		<input type="submit" id="submit" value="Yeah, jobs!">
+    </form>
+{% endblock %}

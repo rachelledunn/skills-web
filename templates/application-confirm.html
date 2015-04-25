@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block title %}The Application{% endblock %}
+
+{% block body %}
+	<h1>Thank you...</h1>
+	<p>{{ firstname }} {{ lastname }}, for applying to be a {{ position }}.</p>
+	<p>Your minimum salary requirement is ${{ salary }} dollars.</p>
+{% endblock %}
